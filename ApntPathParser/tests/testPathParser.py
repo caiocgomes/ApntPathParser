@@ -1,6 +1,6 @@
 import unittest
 import yaml
-import PathParser
+import ApntPathParser as PathParser
 
 
 class TestApntURLParser(unittest.TestCase):
