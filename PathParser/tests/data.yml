@@ -1,0 +1,20 @@
+localPaths:
+  - path: /local/sp/lins/estacionamentos/C40491881A0D5S0D53/garagem_copias.html
+    lbsid: C40491881A0D5S0D53
+    uf: sp
+    cidade: lins
+    categoria: estacionamentos
+
+  - path: /local/ce/fortaleza/beleza_e_estetica/827484M7/bebe_chorao___benicio_cabeleireiro___joaquim_tavora.html
+    lbsid: 827484M7
+    uf: ce
+    cidade: fortaleza
+    categoria: beleza e estetica
+
+emPaths:
+  - path: /em/sp_sao-paulo/restaurantes/em_itaim-bibi
+    uf: sp
+    cidade: sao paulo
+    categoria: restaurantes
+    em: itaim bibi
+
