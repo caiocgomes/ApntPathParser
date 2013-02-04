@@ -21,10 +21,13 @@ class TestApntURLParser(unittest.TestCase):
         for case in self.localPaths:
             parsed = PathParser.parse(case['path'])
             self.assertEqual(parsed['uf'], case['uf'])
-            self.assertEqual(parsed['
+            self.assertEqual(parsed['lbsid'], case['lbsid'])
+            self.assertEqual(parsed['cidade'], case['cidade'])
+            self.assertEqual(parsed['categoria'], case['categoria'])
+
         for case in self.emPaths:
             parsed = PathParser.parse(case['path'])
             self.assertEqual(parsed['uf'], case['uf'])
-
-
-
+            self.assertEqual(parsed['cidade'], case['cidade'])
+            self.assertEqual(parsed['categoria'], case['categoria'])
+            self.assertEqual(parsed['em'], case['em'])
