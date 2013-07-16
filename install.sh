@@ -1,1 +1,1 @@
-pip install -e git+git@github.com:rcalsaverini/ApntPathParser.git#egg=ApntPathParser
+pip install -e git+git@github.com:caiocgomes/ApntPathParser.git#egg=ApntPathParser
